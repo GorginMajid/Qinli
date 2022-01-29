@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="ABOUTUS_desc" xml:space="preserve">
+    <value>we create spare parts all viechels.</value>
+  </data>
+  <data name="ABOUTUS_Titer" xml:space="preserve">
+    <value>ABOUT US</value>
+  </data>
+  <data name="AboutUs_title_left" xml:space="preserve">
+    <value>Guangzhou Guangzhou Qinli International Trading Co., LTD is located in Room A013, Building 2, No. 26, Jiahe Wanggang Industrial Zone, Baiyun District, Guangzhou city. We have more than 30-year experience in auto parts and specialized in Japanese ,Korean , American and Chinese cars. Our products cover all types of passenger &amp; truck parts, market range relates to the Africa , South America and Southeast Asia , Europe , America etc. We develop high quality products and building win-win cooperation and considerate service. Our company is diversified management mode, integrating production and the sale together, also so import and export agency, mutual trade, transit, import and export trade. Meanwhile, we have a good and long term cooperate with many factories.</value>
+  </data>
+  <data name="AboutUs_title_right" xml:space="preserve">
+    <value>We have right of import and export. Our auto parts are best-selling all over the world, strictly according to international standards. We have been engaged in auto parts for over 30 years, have rich experience in parts' produce, sales, after service and facilities. Accessories range is very wide. Our business concept is“Honesty and Trustworthiness, Preferential Prices and Customer First.”, that is the reason we have win domestic and foreign customers' trust.</value>
+  </data>
+  <data name="Call" xml:space="preserve">
+    <value>Call</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Contact_desc" xml:space="preserve">
+    <value>Are company and are phone and are Address.</value>
+  </data>
+  <data name="Contact_titer" xml:space="preserve">
+    <value>CONTACT</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Fo_Copyright" xml:space="preserve">
+    <value>&amp;copy; Copyright &lt;strong&gt;&lt;span&gt;Qin22Li&lt;/span&gt;&lt;/strong&gt;. All Rights Reserved</value>
+  </data>
+  <data name="Fo_Nav_OurServices" xml:space="preserve">
+    <value>Our Services</value>
+  </data>
+  <data name="Fo_Nav_UsefulLinks" xml:space="preserve">
+    <value>Useful Links</value>
+  </data>
+  <data name="Fo_Newsletter_btn" xml:space="preserve">
+    <value>Subscribe</value>
+  </data>
+  <data name="Fo_Newsletter_desc" xml:space="preserve">
+    <value>ExampleExampleExampleExampleExample</value>
+  </data>
+  <data name="Fo_Newsletter_titer" xml:space="preserve">
+    <value>
+Join Our Newsletter</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>Get Started</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="HeaderDescription" xml:space="preserve">
+    <value>We are make spare parts</value>
+  </data>
+  <data name="HeaderTitle" xml:space="preserve">
+    <value>Welcome to QinLi Company</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>LearnMore</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Message_btn" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="Message_Email" xml:space="preserve">
+    <value>Your Email</value>
+  </data>
+  <data name="Message_Msg" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Message_Name" xml:space="preserve">
+    <value>Your Name</value>
+  </data>
+  <data name="Message_Subject" xml:space="preserve">
+    <value>Subjects</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>PRODUCTS</value>
+  </data>
+  <data name="Products_des" xml:space="preserve">
+    <value>inja</value>
+  </data>
+  <data name="Products_titer" xml:space="preserve">
+    <value>PRODUCTS</value>
+  </data>
+</root>
